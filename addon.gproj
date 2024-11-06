@@ -1,0 +1,86 @@
+GameProject {
+ ID "CarryableFlag18thCentury"
+ GUID "62CD1A660DCEC231"
+ TITLE "Carryable Flags of the 18th Century"
+ Dependencies {
+  "58D0FB3206B6F859" "62BF3C345D95EF63" "629565CBD0FCE741"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{62CD5330F6012AFB}" {
+      StringTableSource "{8D8150CB897BBB42}Language/CF18_localization.st"
+      Languages {
+       LanguageDefinition "{62CD5330F495078A}" {
+        Code "cs_cz"
+        StringTableRuntime "{945C8B9DEB1FCDB4}Language/CF18_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{62CD5330F4950739}" {
+        Code "de_de"
+        StringTableRuntime "{412291AEF8BCDC94}Language/CF18_localization.de_de.conf"
+       }
+       LanguageDefinition "{62CD5330F4950724}" {
+        Code "en_us"
+        StringTableRuntime "{1FD21BE5924FD995}Language/CF18_localization.en_us.conf"
+       }
+       LanguageDefinition "{62CD5330F4950701}" {
+        Code "es_es"
+        StringTableRuntime "{DA9E566C7C4DB28A}Language/CF18_localization.es_es.conf"
+       }
+       LanguageDefinition "{62CD5330F49500EE}" {
+        Code "fr_fr"
+        StringTableRuntime "{6136A35B9ACE5188}Language/CF18_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{62CD5330F49500CE}" {
+        Code "it_it"
+        StringTableRuntime "{E12A2C6F37ECD271}Language/CF18_localization.it_it.conf"
+       }
+       LanguageDefinition "{62CD5330F49500AA}" {
+        Code "ja_jp"
+        LanguageGroup EastAsian
+        StringTableRuntime "{F13191FD099DE2DA}Language/CF18_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{62CD5330F4950097}" {
+        Code "ko_kr"
+        LanguageGroup EastAsian
+        StringTableRuntime "{518FB9519AB0E1E5}Language/CF18_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{62CD5330F495007D}" {
+        Code "pl_pl"
+        StringTableRuntime "{0DFE1FAB245F7D99}Language/CF18_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{62CD5330F495005B}" {
+        Code "pt_br"
+        StringTableRuntime "{D88985671FA1B723}Language/CF18_localization.pt_br.conf"
+       }
+       LanguageDefinition "{62CD5330F4950045}" {
+        Code "ru_ru"
+        StringTableRuntime "{8DC891CF82D8D255}Language/CF18_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{62CD5330F495001E}" {
+        Code "uk_ua"
+        StringTableRuntime "{0790C439EEF66C00}Language/CF18_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{62CD5330F4950156}" {
+        Code "zh_cn"
+        LanguageGroup EastAsian
+        StringTableRuntime "{DD20AA04D756BC1D}Language/CF18_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

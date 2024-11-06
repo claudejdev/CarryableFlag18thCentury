@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6AB3ACB3E0677CE4}Prefabs/Weapons/Melee/Flagpole_Held_PA_Navy_1816.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
